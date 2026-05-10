@@ -1,20 +1,29 @@
-name: ComfyUI Daily News（极简测试版）
-
+name: 更新 ComfyUI 排行榜
 on:
+  push:
+  workflow_dispatch:
   schedule:
     - cron: '0 8 * * *'
-  workflow_dispatch:
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
       - run: pip install PyGithub pytz
-      - name: Run script
+      - name: 运行脚本
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/fetch_comfyui_news.py
+      - name: 提交更新
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "action@github.com"
+          git add README.md
+          git commit -m "Auto update README" || exit 0
+          git push
