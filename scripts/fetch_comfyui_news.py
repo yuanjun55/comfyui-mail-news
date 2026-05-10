@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
-ComfyUI Daily News Fetcher (163 邮箱版)
-- 抓取热门插件更新，按收藏/更新时间排序
-- 通过 163 邮箱发送每日邮件
+ComfyUI Daily News Fetcher (163 邮箱版 - 修复端口错误)
 """
 import os
 import sys
@@ -14,13 +12,17 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # ========= 配置信息 =========
-# 从 GitHub Secrets 读取
 SMTP_HOST = os.getenv("SMTP_HOST")
-SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
 SMTP_USER = os.getenv("SMTP_USER")
 SMTP_PASS = os.getenv("SMTP_PASS")
 EMAIL_TO = os.getenv("EMAIL_TO")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+
+# 端口默认 465，单独处理避免报错
+try:
+    SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
+except ValueError:
+    SMTP_PORT = 465
 
 # 抓取最近 7 天更新的插件，按收藏排序
 TZ = pytz.timezone("Asia/Shanghai")
