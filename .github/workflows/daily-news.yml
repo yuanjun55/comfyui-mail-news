@@ -1,13 +1,15 @@
-name: ComfyUI Daily News (163 邮箱版)
+name: ComfyUI Daily News（无邮箱版）
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # 每天 UTC 8 点（北京时间 16:00）运行，可自行调整
+    - cron: '0 8 * * *'  # 每天 UTC 8 点（北京时间 16:00）运行
   workflow_dispatch:  # 支持手动触发
 
 jobs:
-  send-news:
+  update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 允许脚本提交文件
     steps:
       - name: 拉取仓库代码
         uses: actions/checkout@v5
@@ -24,10 +26,13 @@ jobs:
 
       - name: 运行资讯脚本
         env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/fetch_comfyui_news.py
+
+      - name: 提交更新到仓库
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update daily news $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push
