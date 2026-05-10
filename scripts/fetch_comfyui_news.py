@@ -1,42 +1,29 @@
 #!/usr/bin/env python3
 """
-ComfyUI Daily News Fetcher (163 邮箱版 - 修复端口错误)
+ComfyUI Daily News - 无邮箱版（直接写入 README.md）
 """
 import os
 import sys
 import pytz
-import smtplib
 from datetime import datetime, timedelta, timezone
 from github import Github
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 
-# ========= 配置信息 =========
-SMTP_HOST = os.getenv("SMTP_HOST")
-SMTP_USER = os.getenv("SMTP_USER")
-SMTP_PASS = os.getenv("SMTP_PASS")
-EMAIL_TO = os.getenv("EMAIL_TO")
+# 配置
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+README_PATH = os.path.join(REPO_ROOT, 'README.md')
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-
-# 端口默认 465，单独处理避免报错
-try:
-    SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
-except ValueError:
-    SMTP_PORT = 465
-
-# 抓取最近 7 天更新的插件，按收藏排序
 TZ = pytz.timezone("Asia/Shanghai")
-DAYS_BACK = 7
-MAX_PLUGINS = 10  # 邮件里显示前 10 个热门插件
+DAYS_BACK = 7  # 抓取最近 7 天更新的插件
+MAX_PLUGINS = 15  # 显示前 15 个热门插件
 
 def fetch_comfyui_plugins():
-    """抓取 GitHub 上 ComfyUI 相关热门插件"""
+    """抓取 GitHub 上热门 ComfyUI 插件"""
     g = Github(GITHUB_TOKEN)
     one_week_ago = datetime.now(TZ) - timedelta(days=DAYS_BACK)
     one_week_ago_utc = one_week_ago.astimezone(timezone.utc)
 
-    # 搜索 ComfyUI 插件，按 stars 降序排序
-    query = "topic:comfyui-plugin stars:>100"
+    # 搜索 ComfyUI 插件，按收藏数排序
+    query = "topic:comfyui-plugin stars:>50"
     repos = g.search_repositories(query=query, sort="stars", order="desc")
 
     plugins = []
@@ -54,50 +41,40 @@ def fetch_comfyui_plugins():
             })
     return plugins
 
-def build_email_html(plugins):
-    """生成邮件 HTML 内容"""
-    date_str = datetime.now(TZ).strftime("%Y-%m-%d")
-    html = f"""
-    <h1>ComfyUI 每日资讯 - {date_str}</h1>
-    <p>以下是最近更新的热门插件，按收藏数排序：</p>
-    <hr>
-    """
+def build_readme_content(plugins):
+    """生成 README.md 内容"""
+    date_str = datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S")
+    content = f"""# ComfyUI 每日资讯 📰
+
+更新时间：{date_str}（北京时间）
+
+以下是最近更新的热门 ComfyUI 插件，按收藏数排序：
+
+---
+
+"""
     for idx, p in enumerate(plugins, 1):
-        html += f"""
-        <h3>{idx}. <a href="{p['url']}">{p['name']}</a></h3>
-        <p>⭐ 收藏数：{p['stars']} | 📅 最近更新：{p['updated']}</p>
-        <p>📝 描述：{p['description']}</p>
-        <hr>
-        """
-    return html
+        content += f"""## {idx}. [{p['name']}]({p['url']})
+- ⭐ 收藏数：{p['stars']}
+- 📅 最近更新：{p['updated']}
+- 📝 描述：{p['description']}
 
-def send_email(html_content):
-    """通过 163 SMTP 发送邮件"""
-    msg = MIMEMultipart('alternative')
-    msg['Subject'] = f"[ComfyUI 资讯] 每日更新 - {datetime.now(TZ).strftime('%Y-%m-%d')}"
-    msg['From'] = SMTP_USER
-    msg['To'] = EMAIL_TO
+---
 
-    part = MIMEText(html_content, 'html', 'utf-8')
-    msg.attach(part)
+"""
+    return content
 
-    try:
-        # 用 SSL 连接 163 邮箱
-        server = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT)
-        server.login(SMTP_USER, SMTP_PASS)
-        server.sendmail(SMTP_USER, [EMAIL_TO], msg.as_string())
-        server.quit()
-        print("✅ 邮件发送成功！")
-    except Exception as e:
-        print(f"❌ 邮件发送失败：{str(e)}")
-        sys.exit(1)
-
-if __name__ == "__main__":
+def main():
     print("正在抓取 ComfyUI 热门插件...")
     plugins = fetch_comfyui_plugins()
     if not plugins:
-        print("⚠️  未找到最近更新的插件，邮件将不会发送")
+        print("⚠️  未找到最近更新的插件，README 不会更新")
         sys.exit(0)
-    print(f"✅ 找到 {len(plugins)} 个热门插件")
-    html = build_email_html(plugins)
-    send_email(html)
+    print(f"✅ 找到 {len(plugins)} 个热门插件，正在写入 README.md...")
+    # 写入 README.md
+    with open(README_PATH, "w", encoding="utf-8") as f:
+        f.write(build_readme_content(plugins))
+    print("✅ README.md 更新完成！")
+
+if __name__ == "__main__":
+    main()
