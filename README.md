@@ -1,26 +1,26 @@
 # 📰 ComfyUI 每日热门插件排行榜
-**自动更新时间：2026-05-10 13:05:30（北京时间）**
+**自动更新时间：2026-05-10 17:25:38（北京时间）**
 ---
 
-## 【第1名】⭐ 112176 收藏
+## 【第1名】⭐ 112207 收藏
 - **项目**：[Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
 - **描述**：The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
 - **更新时间**：2026-05-10
 ---
 
-## 【第2名】⭐ 14580 收藏
+## 【第2名】⭐ 14581 收藏
 - **项目**：[Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager)
 - **描述**：ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.
 - **更新时间**：2026-05-08
 ---
 
-## 【第3名】⭐ 14257 收藏
+## 【第3名】⭐ 14331 收藏
 - **项目**：[AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video)
 - **描述**：🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine
 - **更新时间**：2026-05-06
 ---
 
-## 【第4名】⭐ 8133 收藏
+## 【第4名】⭐ 8137 收藏
 - **项目**：[LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix)
 - **描述**：Multi-Platform Package Manager for Stable Diffusion
 - **更新时间**：2026-05-03
@@ -56,19 +56,19 @@
 - **更新时间**：2025-03-07
 ---
 
-## 【第10名】⭐ 6246 收藏
+## 【第10名】⭐ 6247 收藏
 - **项目**：[11cafe/jaaz](https://github.com/11cafe/jaaz)
 - **描述**：The world's first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.
 - **更新时间**：2026-03-02
 ---
 
-## 【第11名】⭐ 5948 收藏
+## 【第11名】⭐ 5949 收藏
 - **项目**：[cubiq/ComfyUI_IPAdapter_plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus)
 - **描述**：无描述
 - **更新时间**：2025-04-14
 ---
 
-## 【第12名】⭐ 5108 收藏
+## 【第12名】⭐ 5109 收藏
 - **项目**：[AIDC-AI/ComfyUI-Copilot](https://github.com/AIDC-AI/ComfyUI-Copilot)
 - **描述**：An AI-powered custom node for ComfyUI designed to enhance workflow automation and provide intelligent assistance
 - **更新时间**：2026-04-07
@@ -80,7 +80,7 @@
 - **更新时间**：2025-11-26
 ---
 
-## 【第14名】⭐ 4066 收藏
+## 【第14名】⭐ 4067 收藏
 - **项目**：[mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI)
 - **描述**：SwarmUI (formerly StableSwarmUI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.
 - **更新时间**：2026-05-05
@@ -98,7 +98,7 @@
 - **更新时间**：2026-03-07
 ---
 
-## 【第17名】⭐ 3737 收藏
+## 【第17名】⭐ 3738 收藏
 - **项目**：[MrForExample/ComfyUI-3D-Pack](https://github.com/MrForExample/ComfyUI-3D-Pack)
 - **描述**：An extensive node suite that enables ComfyUI to process 3D inputs (Mesh & UV Texture, etc) using cutting edge algorithms (3DGS, NeRF, etc.)
 - **更新时间**：2025-12-29
