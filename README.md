@@ -1,5 +1,5 @@
 # 📰 ComfyUI 每日热门插件排行榜
-**自动更新时间：2026-05-10 13:02:15（北京时间）**
+**自动更新时间：2026-05-10 13:05:14（北京时间）**
 ---
 
 ## 【第1名】⭐ 112176 收藏
@@ -14,7 +14,7 @@
 - **更新时间**：2026-05-08
 ---
 
-## 【第3名】⭐ 14256 收藏
+## 【第3名】⭐ 14257 收藏
 - **项目**：[AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video)
 - **描述**：🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine
 - **更新时间**：2026-05-06
@@ -60,4 +60,64 @@
 - **项目**：[11cafe/jaaz](https://github.com/11cafe/jaaz)
 - **描述**：The world's first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.
 - **更新时间**：2026-03-02
+---
+
+## 【第11名】⭐ 5948 收藏
+- **项目**：[cubiq/ComfyUI_IPAdapter_plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus)
+- **描述**：无描述
+- **更新时间**：2025-04-14
+---
+
+## 【第12名】⭐ 5108 收藏
+- **项目**：[AIDC-AI/ComfyUI-Copilot](https://github.com/AIDC-AI/ComfyUI-Copilot)
+- **描述**：An AI-powered custom node for ComfyUI designed to enhance workflow automation and provide intelligent assistance
+- **更新时间**：2026-04-07
+---
+
+## 【第13名】⭐ 4187 收藏
+- **项目**：[comfyanonymous/ComfyUI_examples](https://github.com/comfyanonymous/ComfyUI_examples)
+- **描述**：Examples of ComfyUI workflows
+- **更新时间**：2025-11-26
+---
+
+## 【第14名】⭐ 4066 收藏
+- **项目**：[mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI)
+- **描述**：SwarmUI (formerly StableSwarmUI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.
+- **更新时间**：2026-05-05
+---
+
+## 【第15名】⭐ 3980 收藏
+- **项目**：[Fannovel16/comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux)
+- **描述**：ComfyUI's ControlNet Auxiliary Preprocessors
+- **更新时间**：2026-04-13
+---
+
+## 【第16名】⭐ 3835 收藏
+- **项目**：[nunchaku-ai/nunchaku](https://github.com/nunchaku-ai/nunchaku)
+- **描述**：[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models
+- **更新时间**：2026-03-07
+---
+
+## 【第17名】⭐ 3737 收藏
+- **项目**：[MrForExample/ComfyUI-3D-Pack](https://github.com/MrForExample/ComfyUI-3D-Pack)
+- **描述**：An extensive node suite that enables ComfyUI to process 3D inputs (Mesh & UV Texture, etc) using cutting edge algorithms (3DGS, NeRF, etc.)
+- **更新时间**：2025-12-29
+---
+
+## 【第18名】⭐ 3607 收藏
+- **项目**：[city96/ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF)
+- **描述**：GGUF Quantization support for native ComfyUI models
+- **更新时间**：2026-01-12
+---
+
+## 【第19名】⭐ 3594 收藏
+- **项目**：[Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo)
+- **描述**：LTX-Video Support for ComfyUI
+- **更新时间**：2026-04-26
+---
+
+## 【第20名】⭐ 3447 收藏
+- **项目**：[Kosinkadink/ComfyUI-AnimateDiff-Evolved](https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved)
+- **描述**：Improved AnimateDiff for ComfyUI and Advanced Sampling Support
+- **更新时间**：2026-03-30
 ---
