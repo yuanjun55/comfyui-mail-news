@@ -25,7 +25,7 @@ def get_top_comfyui():
 
     count = 0
     for repo in repos:
-        if count >= 10:
+        if count >= 20:  # 这里改成 20 条
             break
         count += 1
         star = repo.stargazers_count
