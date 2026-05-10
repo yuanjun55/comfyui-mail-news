@@ -1,38 +1,20 @@
-name: ComfyUI Daily News（最终稳定版）
+name: ComfyUI Daily News（极简测试版）
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # 每天 UTC 8 点（北京时间 16:00）运行
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  run-script:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: 拉取代码
-        uses: actions/checkout@v5
-
-      - name: 设置 Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
-      - name: 安装依赖
-        run: |
-          python -m pip install --upgrade pip
-          pip install PyGithub pytz
-
-      - name: 运行脚本
+      - run: pip install PyGithub pytz
+      - name: Run script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/fetch_comfyui_news.py
-
-      - name: 提交更新
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md || echo "README.md not found, skipping add"
-          git commit -m "Update daily news $(date +'%Y-%m-%d')" || echo "No changes to commit"
-          git push
