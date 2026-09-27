@@ -1,26 +1,26 @@
 # 📰 ComfyUI 每日热门插件排行榜
-**自动更新时间：2026-09-26 20:37:20（北京时间）**
+**自动更新时间：2026-09-27 21:29:07（北京时间）**
 ---
 
-## 【第1名】⭐ 135039 收藏
+## 【第1名】⭐ 135171 收藏
 - **项目**：[Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
 - **描述**：The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
-- **更新时间**：2026-09-26
+- **更新时间**：2026-09-27
 ---
 
-## 【第2名】⭐ 28434 收藏
+## 【第2名】⭐ 28450 收藏
 - **项目**：[ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video)
 - **描述**：🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine
 - **更新时间**：2026-06-14
 ---
 
-## 【第3名】⭐ 16269 收藏
+## 【第3名】⭐ 16278 收藏
 - **项目**：[Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager)
 - **描述**：ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.
 - **更新时间**：2026-09-25
 ---
 
-## 【第4名】⭐ 8837 收藏
+## 【第4名】⭐ 8840 收藏
 - **项目**：[LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix)
 - **描述**：Multi-Platform Package Manager for Stable Diffusion
 - **更新时间**：2026-09-16
@@ -32,13 +32,13 @@
 - **更新时间**：2025-11-29
 ---
 
-## 【第6名】⭐ 7840 收藏
+## 【第6名】⭐ 7843 收藏
 - **项目**：[ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO](https://github.com/ZHO-ZHO-ZHO/ComfyUI-Workflows-ZHO)
 - **描述**：我的 ComfyUI 工作流合集 | My ComfyUI workflows collection
 - **更新时间**：2024-12-20
 ---
 
-## 【第7名】⭐ 7301 收藏
+## 【第7名】⭐ 7300 收藏
 - **项目**：[AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin](https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin)
 - **描述**：A user-friendly plug-in that makes it easy to generate stable diffusion images inside Photoshop using either Automatic or ComfyUI as a backend.
 - **更新时间**：2024-04-22
@@ -50,34 +50,34 @@
 - **更新时间**：2025-03-07
 ---
 
-## 【第9名】⭐ 6841 收藏
+## 【第9名】⭐ 6860 收藏
 - **项目**：[Osmantic/ODS](https://github.com/Osmantic/ODS)
 - **描述**：ODS V3 Pre-Release: Public testing and refinement ahead of the official V3 launch. Turn your PC, Mac, or Linux box into a private AI server.
-- **更新时间**：2026-09-26
+- **更新时间**：2026-09-27
 ---
 
-## 【第10名】⭐ 6711 收藏
+## 【第10名】⭐ 6712 收藏
 - **项目**：[kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper)
 - **描述**：无描述
 - **更新时间**：2026-05-24
 ---
 
-## 【第11名】⭐ 6665 收藏
+## 【第11名】⭐ 6667 收藏
 - **项目**：[11cafe/jaaz](https://github.com/11cafe/jaaz)
 - **描述**：The world's first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.
 - **更新时间**：2026-03-02
 ---
 
-## 【第12名】⭐ 6134 收藏
+## 【第12名】⭐ 6135 收藏
 - **项目**：[cubiq/ComfyUI_IPAdapter_plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus)
 - **描述**：无描述
 - **更新时间**：2025-04-14
 ---
 
-## 【第13名】⭐ 5680 收藏
+## 【第13名】⭐ 5686 收藏
 - **项目**：[wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)
 - **描述**：Remove visible and invisible AI watermarks and provenance metadata from images and video. Python library and CLI for SynthID, C2PA, EXIF, IPTC, XMP, and common generative-AI marks.
-- **更新时间**：2026-09-25
+- **更新时间**：2026-09-27
 ---
 
 ## 【第14名】⭐ 5528 收藏
@@ -86,7 +86,7 @@
 - **更新时间**：2026-09-11
 ---
 
-## 【第15名】⭐ 4607 收藏
+## 【第15名】⭐ 4611 收藏
 - **项目**：[mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI)
 - **描述**：SwarmUI (formerly StableSwarmUI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.
 - **更新时间**：2026-09-24
@@ -98,25 +98,25 @@
 - **更新时间**：2025-11-26
 ---
 
-## 【第17名】⭐ 4200 收藏
+## 【第17名】⭐ 4204 收藏
 - **项目**：[Fannovel16/comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux)
 - **描述**：ComfyUI's ControlNet Auxiliary Preprocessors
 - **更新时间**：2026-08-27
 ---
 
-## 【第18名】⭐ 4141 收藏
+## 【第18名】⭐ 4143 收藏
 - **项目**：[Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo)
 - **描述**：LTX-Video Support for ComfyUI
 - **更新时间**：2026-09-24
 ---
 
-## 【第19名】⭐ 4092 收藏
+## 【第19名】⭐ 4100 收藏
 - **项目**：[city96/ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF)
 - **描述**：GGUF Quantization support for native ComfyUI models
 - **更新时间**：2026-01-12
 ---
 
-## 【第20名】⭐ 3955 收藏
+## 【第20名】⭐ 3957 收藏
 - **项目**：[nunchux-ai/nunchaku](https://github.com/nunchux-ai/nunchaku)
 - **描述**：[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models
 - **更新时间**：2026-09-06
