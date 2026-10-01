@@ -1,29 +1,29 @@
 # 📰 ComfyUI 每日热门插件排行榜
-**自动更新时间：2026-09-30 22:31:35（北京时间）**
+**自动更新时间：2026-10-01 23:01:20（北京时间）**
 ---
 
-## 【第1名】⭐ 135598 收藏
+## 【第1名】⭐ 135735 收藏
 - **项目**：[Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
 - **描述**：The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
-- **更新时间**：2026-09-30
+- **更新时间**：2026-10-01
 ---
 
-## 【第2名】⭐ 28539 收藏
+## 【第2名】⭐ 28565 收藏
 - **项目**：[ATH-MaaS/Pixelle-Video](https://github.com/ATH-MaaS/Pixelle-Video)
 - **描述**：🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine
 - **更新时间**：2026-06-14
 ---
 
-## 【第3名】⭐ 16311 收藏
+## 【第3名】⭐ 16319 收藏
 - **项目**：[Comfy-Org/ComfyUI-Manager](https://github.com/Comfy-Org/ComfyUI-Manager)
 - **描述**：ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.
-- **更新时间**：2026-09-30
+- **更新时间**：2026-10-01
 ---
 
-## 【第4名】⭐ 8857 收藏
+## 【第4名】⭐ 8861 收藏
 - **项目**：[LykosAI/StabilityMatrix](https://github.com/LykosAI/StabilityMatrix)
 - **描述**：Multi-Platform Package Manager for Stable Diffusion
-- **更新时间**：2026-09-16
+- **更新时间**：2026-10-01
 ---
 
 ## 【第5名】⭐ 7911 收藏
@@ -38,31 +38,31 @@
 - **更新时间**：2024-12-20
 ---
 
-## 【第7名】⭐ 7300 收藏
+## 【第7名】⭐ 7302 收藏
 - **项目**：[AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin](https://github.com/AbdullahAlfaraj/Auto-Photoshop-StableDiffusion-Plugin)
 - **描述**：A user-friendly plug-in that makes it easy to generate stable diffusion images inside Photoshop using either Automatic or ComfyUI as a backend.
 - **更新时间**：2024-04-22
 ---
 
-## 【第8名】⭐ 7155 收藏
+## 【第8名】⭐ 7156 收藏
 - **项目**：[ddean2009/MoneyPrinterPlus](https://github.com/ddean2009/MoneyPrinterPlus)
 - **描述**：AI一键批量生成各类短视频,自动批量混剪短视频,自动把视频发布到抖音,快手,小红书,视频号上,赚钱从来没有这么容易过! 支持本地语音模型chatTTS,fasterwhisper,GPTSoVITS,支持云语音：Azure,阿里云,腾讯云。支持Stable diffusion,comfyUI直接AI生图。Generate short videos with one click using AI LLM,print money together! support:chatTTS,faster-whisper,GPTSoVITS,Azure,tencent Cloud,Ali Cloud.
 - **更新时间**：2025-03-07
 ---
 
-## 【第9名】⭐ 6906 收藏
+## 【第9名】⭐ 6942 收藏
 - **项目**：[Osmantic/ODS](https://github.com/Osmantic/ODS)
 - **描述**：ODS V3 Pre-Release: Public testing and refinement ahead of the official V3 launch. Turn your PC, Mac, or Linux box into a private AI server.
-- **更新时间**：2026-09-30
+- **更新时间**：2026-10-01
 ---
 
-## 【第10名】⭐ 6716 收藏
+## 【第10名】⭐ 6718 收藏
 - **项目**：[kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper)
 - **描述**：无描述
 - **更新时间**：2026-05-24
 ---
 
-## 【第11名】⭐ 6678 收藏
+## 【第11名】⭐ 6682 收藏
 - **项目**：[11cafe/jaaz](https://github.com/11cafe/jaaz)
 - **描述**：The world's first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.
 - **更新时间**：2026-03-02
@@ -74,10 +74,10 @@
 - **更新时间**：2025-04-14
 ---
 
-## 【第13名】⭐ 5720 收藏
+## 【第13名】⭐ 5728 收藏
 - **项目**：[wiltodelta/remove-ai-watermarks](https://github.com/wiltodelta/remove-ai-watermarks)
 - **描述**：Remove visible and invisible AI watermarks and provenance metadata from images and video. Python library and CLI for SynthID, C2PA, EXIF, IPTC, XMP, and common generative-AI marks.
-- **更新时间**：2026-09-30
+- **更新时间**：2026-10-01
 ---
 
 ## 【第14名】⭐ 5533 收藏
@@ -86,7 +86,7 @@
 - **更新时间**：2026-09-11
 ---
 
-## 【第15名】⭐ 4620 收藏
+## 【第15名】⭐ 4621 收藏
 - **项目**：[mcmonkeyprojects/SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI)
 - **描述**：SwarmUI (formerly StableSwarmUI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.
 - **更新时间**：2026-09-30
@@ -104,19 +104,19 @@
 - **更新时间**：2026-09-28
 ---
 
-## 【第18名】⭐ 4149 收藏
+## 【第18名】⭐ 4155 收藏
 - **项目**：[Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo)
 - **描述**：LTX-Video Support for ComfyUI
-- **更新时间**：2026-09-29
+- **更新时间**：2026-10-01
 ---
 
-## 【第19名】⭐ 4113 收藏
+## 【第19名】⭐ 4115 收藏
 - **项目**：[city96/ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF)
 - **描述**：GGUF Quantization support for native ComfyUI models
 - **更新时间**：2026-01-12
 ---
 
-## 【第20名】⭐ 3958 收藏
+## 【第20名】⭐ 3957 收藏
 - **项目**：[nunchux-ai/nunchaku](https://github.com/nunchux-ai/nunchaku)
 - **描述**：[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models
 - **更新时间**：2026-09-06
